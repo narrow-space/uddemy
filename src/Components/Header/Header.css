@@ -1,0 +1,50 @@
+.banner{
+    background-image: radial-gradient(#183876,#0c0a3e);
+
+    
+    
+    
+    height: 580px;
+    width: 100%;
+    
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width:100px;
+}
+.text{
+    font-size: 50px;
+    font-weight:bolder;
+    
+    
+    
+}
+.banner button{
+    margin-top: 40px;
+    background: #ffbb00;
+    padding: 20px;
+    border-radius:99rem;
+    border: 1px solid #ffbe0c;
+    font-weight:bolder;
+  
+    font-size:large;
+    transition: 0.5s ;
+    
+
+   
+    
+    
+}
+
+.banner button:hover{
+    
+    background-color: crimson;
+    border: 1px solid crimson;
+    transform:translate(1px,4px);
+    color:white
+}

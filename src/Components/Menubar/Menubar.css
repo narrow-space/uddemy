@@ -1,0 +1,25 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    transition:0.9s;
+  }
+  .items:hover {
+    color:#ffbe0c;
+    transform: translateY(5px);
+  }
+  .menu-container{
+    margin-left: 240px;
+    margin-top: -15px;
+  }
+  .Menu-bar img{
+      width: 100px;
+      border-radius: 10px;
+      
+
+  }
