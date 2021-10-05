@@ -7,13 +7,14 @@ const Heder = () => {
         <div className="row banner">
         
        
-           <Menubar></Menubar>
-            <div className="col-md-12">
+           
+                <div className="col-md-12">
+                <Menubar></Menubar>
 
                 <h1 className="text-light text">Let's Learn Programming <br /> With Us!!!!</h1>
                 <h5 className="text-light">Create better
-                    experiences in your Journy</h5>
-                <button>See our work</button>
+                    experiences in your Journey</h5>
+                <button className="btn">See our work</button>
 
             </div>
 

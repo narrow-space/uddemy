@@ -17,7 +17,8 @@ const Courses = () => {
         
         <Heder></Heder>
 
-        <h1 className="text">This is Our  All Courses </h1>
+        <h1 className="text">This is Our<span className="color-change">All Courses!! 
+            </span></h1>
         
 
          

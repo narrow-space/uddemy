@@ -16,6 +16,9 @@
 
 .logo{
     width:100px;
+    border-radius: 100px;
+
+    
 }
 .text{
     font-size: 50px;
@@ -24,7 +27,7 @@
     
     
 }
-.banner button{
+.btn{
     margin-top: 40px;
     background: #ffbb00;
     padding: 20px;
@@ -41,10 +44,17 @@
     
 }
 
-.banner button:hover{
+.btn:hover{
     
     background-color: crimson;
     border: 1px solid crimson;
     transform:translate(1px,4px);
     color:white
 }
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-bottom: 50px;
+        
+    }
+  }
