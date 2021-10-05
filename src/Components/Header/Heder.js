@@ -4,9 +4,10 @@ import './Header.css'
 
 const Heder = () => {
     return (
+        
         <div className="row banner">
         
-       
+        
            
                 <div className="col-md-12">
                 <Menubar></Menubar>

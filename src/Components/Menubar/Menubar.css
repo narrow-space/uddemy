@@ -7,7 +7,8 @@
   
 }
 .nav-item {
-  font-size:larger;
+  font-size:large;
+  font-weight:600;
   color: white;
   margin-left: 50px;
   transition: 0.5s;
@@ -19,3 +20,13 @@
   transform:translate(1px,3px);
 }
 
+@media only screen and (max-width: 600px) {
+
+  .nav-item{
+    margin-right: 40px;
+  }
+  .logo{
+    margin-right:35px ;
+  }
+
+}
